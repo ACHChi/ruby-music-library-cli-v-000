@@ -70,7 +70,7 @@ class MusicLibraryController
       genre.name
     end
     songs_sorted_by_genre.each.with_index(1) do |genre,index|
-      puts "#{index}. #{genre.name}"
+      puts "#{index}. #{genre.name}" if song
     end
   end
 
